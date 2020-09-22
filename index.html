@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <header class=header>
+        <div id="viewhighscores">View High Scores</div>
+        <div id="countdown">60</div>       
+        <div id="timer"></div>
+       
+    </header>	
+</head>
+<body>
+
+    <div id="highscores">
+        <h2>High Scores</h2>
+    </div>
+
+    <div id="container">
+        <h1 id="main"></h1>
+        <div id="instruction"></div>
+        <div id="start"></div>
+        <h2 id="question"></h2>		
+        <div id="choices"></div>
+        <div id="result"></div>
+        <form id="initials-form">
+            <label for="initials-input">Enter your initials </label>
+            <input type="text" id="initials-input">
+      
+            <!-- This button will trigger our AJAX call -->
+            <input id="add-initials" type="submit" value="Submit">
+          </form>
+     </div>	
+        
+    <script src="quiz.js"></script>
+</body>
+</html>
+
+<style>	html{
+		font-family: sans-serif;
+	}
+	h1{
+		margin-top: 0px
+	}
+	button{
+		margin: 10px 0px 10px 0px;
+		display: block;
+		border: 0px;
+		background-color: purple;
+		color: white;
+		font-size: 22px;
+	}	
+    #container{
+		width: 400px;
+		background-color: #efefef;
+		margin: auto;
+        margin-top: 40px;
+		padding: 30px;
+		border-radius: 20px;
+	}
+
+    #highscores{
+		width: 400px;
+		margin: auto;
+        margin-top: 200px;
+        text-align: center;
+		font-size: 24px;
+	}
+    #main {
+        text-align: center;
+    }
+    #instruction{
+        text-align: center;
+    }
+    #startButton{
+         margin: auto;
+    }
+    #countdown {
+        float: right;
+        padding-right: 40px;
+    }
+    #timer {
+        float: relative;
+        padding-right: 40px;
+    }
+    
+    #viewhighscores {
+        cursor: pointer;
+    }
+</style>
