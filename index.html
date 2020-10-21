@@ -6,26 +6,31 @@
     <title>Document</title>
     <header class=header>
         <div id="viewhighscores">View High Scores</div>
-        <div id="countdown">60</div>       
-        <div id="timer"></div>
-       
+        <div id="timer">Time Left</div>
+        <div id="countdown">60</div>        
     </header>	
 </head>
 <body>
 
     <div id="highscores">
         <h2>High Scores</h2>
+        <ol id="highscorelist"></ol>
     </div>
 
     <div id="container">
         <h1 id="main"></h1>
         <div id="instruction"></div>
         <div id="start"></div>
-        <h2 id="question"></h2>		
+        <h2 id="question"></h2>
+        <div id="start"></div>
         <div id="choices"></div>
+        <div id="back"></div>
+        <div id="start"></div>
+        <div id="clear"></div>
         <div id="result"></div>
+        <div id="backButton"></div>
         <form id="initials-form">
-            <label for="initials-input">Enter your initials </label>
+            <label for="initials-input" id="initials-text">Enter your initials </label>
             <input type="text" id="initials-input">
       
             <!-- This button will trigger our AJAX call -->
@@ -50,7 +55,24 @@
 		background-color: purple;
 		color: white;
 		font-size: 22px;
+	}
+	#back{
+		margin: 10px 0px 10px 0px;
+		display: inline;
+		border: 10px;
+		background-color: purple;
+		color: white;
+		font-size: 22px;
 	}	
+    #clear{
+		margin: 10px 0px 10px 0px;
+		display: inline;
+		border: 10px;
+		background-color: purple;
+		color: white;
+		font-size: 22px;
+	}
+
     #container{
 		width: 400px;
 		background-color: #efefef;
@@ -75,17 +97,19 @@
     }
     #startButton{
          margin: auto;
+         margin-top:30px;
+    }
+     
+    #viewhighscores {
+        cursor: pointer;
+        color: blue;
+        float:left
+    }
+    #timer {
+        float: right
     }
     #countdown {
         float: right;
-        padding-right: 40px;
     }
-    #timer {
-        float: relative;
-        padding-right: 40px;
-    }
-    
-    #viewhighscores {
-        cursor: pointer;
-    }
+  
 </style>
