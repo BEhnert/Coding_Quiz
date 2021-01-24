@@ -15,7 +15,10 @@
   
 
   # Installation
-    Open up the index.html in web browser, when ready click "Start Quiz"
+    Deployed applicsation accessed via this link: 
+        https://behnert.github.io/4-Coding_Quiz/
+
+        
 
   # Usage
     Once "Start Quiz" has been chosen, the timer at top of screen will begin counting down from 60 seconds.  User will be display a question with 4 possible answers.  Selecting on the answer will then display "Correct" or "Incorrect" and proceed to the next question.  There are 5 questions in total, when completed users are given a score (10 points for each correct and -5 for each incorrect).  At that time, user can input initials and submit to store their score in High Scores.  
