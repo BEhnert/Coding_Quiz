@@ -1,4 +1,4 @@
-# UMN_FSWD_HW4
+# Coding Quiz
 
 # Title
     Coding Quiz
