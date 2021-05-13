@@ -16,7 +16,7 @@
 
   # Installation
     Deployed applicsation accessed via this link: 
-        [Coding Quiz](https://behnert.github.io/4-Coding_Quiz/)
+        [Coding Quiz](https://behnert.github.io/Coding_Quiz)
 
         
 
