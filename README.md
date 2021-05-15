@@ -1,5 +1,5 @@
 # Coding Quiz
-[](images/Coding_Quiz.png)
+![](images/Coding_Quiz.png)
 # Title
     Coding Quiz
 
